@@ -1,0 +1,182 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #070707;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    padding-top: 46px;
+    background: #F1F1F1;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+.nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-title {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+    line-height: 2;
+}
+
+/* services */
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.services-card {
+    max-width: 370px;
+}
+
+.services-img {
+    margin-bottom: 30px;
+}
+
+.services-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services p {
+    line-height: 2;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+    
+}
+
+.porfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.project {
+    text-align: center
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-title {
+    margin-top: 40px;
+}
+
+.project-link {
+    font-size: 18px;
+    color: #070707;
+    text-decoration: underline;
+}
+
+
+/* Contacts */
+
+.contacts {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.contacts p {
+    font-size: 18px;
+    color: #070707;
+    margin: 40px 0;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 7px 22px;
+    border-radius: 30px;
+    background-color: #070707;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-top: 80px;
+}
